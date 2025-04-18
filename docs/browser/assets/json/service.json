@@ -1,0 +1,32 @@
+[
+    {
+        "id": "branding-001",
+        "title": "Branding",
+        "description": "Crafting unique brand identities with strategic design and storytelling to make your business stand out.",
+        "animationTiming": 500
+    },
+    {
+        "id": "development-002",
+        "title": "Development",
+        "description": "Building high-performance web and mobile applications with clean, efficient, and scalable code.",
+        "animationTiming": 1000
+    },
+    {
+        "id": "uiux-003",
+        "title": "UI/UX Design",
+        "description": "Designing intuitive and visually appealing user experiences that enhance engagement and usability.",
+        "animationTiming": 1500
+    },
+    {
+        "id": "graphic-004",
+        "title": "Graphic Design",
+        "description": "Creating stunning visuals, logos, and marketing materials that effectively communicate your brand’s message.",
+        "animationTiming": 2000
+    },
+    {
+        "id": "seo-005",
+        "title": "SEO",
+        "description": "Optimizing websites for better search engine visibility, ensuring higher rankings and increased traffic.",
+        "animationTiming": 2500
+    }
+]

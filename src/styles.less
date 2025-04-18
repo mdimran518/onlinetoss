@@ -1,0 +1,134 @@
+/* You can add global styles to this file, and also import other style files */
+
+// Bootstrap 5 CSS and Bootstrap Icons
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+:root {
+    // --primary_color: #31abe1;
+    --primary_color: #31abe1;
+}
+
+.btn {
+    border-radius: 50px !important;
+    border: none !important;
+    background-color: #ffffff !important;
+    border: 2px solid #31abe1 !important;
+    color: #31abe1 !important;
+    cursor: pointer !important;
+    font-size: 18px !important;
+    height: 50px !important;
+    padding: 0 2rem !important;
+    gap: 20px !important;
+    position: relative !important;
+    min-width: 200px;
+
+    .btn-icon {
+        height: 40px;
+        width: 40px;
+        display: grid;
+        place-content: center;
+        border-radius: 50%;
+        background-color: #ffffff;
+        color: #000000;
+        position: absolute;
+        right: 5px;
+    }
+}
+
+.btn:hover {
+    background-color: #31abe1 !important;
+    color: #ffffff !important;
+}
+
+.container-title {
+    font-size: clamp(2rem, 6vw, 3.5rem);
+    font-weight: 700;
+}
+
+.slick-slide {
+    padding: 10px !important;
+    /* Adjust the gap as needed */
+}
+
+.tab-slide {
+    .slick-list {
+        padding: 0 17% 0 0 !important;
+    }
+}
+
+.three-line-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* Limits text to 3 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.page-title {
+    // background-image: url('https://demo.rstheme.com/html/flixta/assets/images/bg/breadcrumb-bg-01.png');
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-color: #ffffff;
+
+    .page-title-container {
+        margin-top: 40px;
+        text-align: center;
+        width: 100%;
+
+        h1 {
+            font-size: clamp(3rem, 8vw, 6rem);
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+}
+
+
+.spanner {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+
+.seprator-line::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: calc(100% + 15px);
+    height: 2px;
+    width: 250px;
+    background-color: #e6e6e6;
+    transform: translateY(calc(-50% + 5px));
+
+}
+
+
+.w-100 {
+    width: 100% !important;
+}
+
+
+.input-container {
+    position: relative;
+    margin-bottom: 15px;
+
+    input {
+        height: 50px;
+        width: 100%;
+
+        background-color: #f5f5f5;
+        border: 1px solid #f5f5f5;
+    }
+}

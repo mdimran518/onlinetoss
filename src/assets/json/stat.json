@@ -1,0 +1,26 @@
+[
+    {
+        "id": "prj-cmpl-1650-xyz123",
+        "value": 1650,
+        "label": "Project Complete",
+        "currentValue": 0
+    },
+    {
+        "id": "hpy-cust-502-abc456",
+        "value": 502,
+        "label": "Happy Customers",
+        "currentValue": 0
+    },
+    {
+        "id": "yrs-exp-3-def789",
+        "value": 3,
+        "label": "Years of Experience",
+        "currentValue": 0
+    },
+    {
+        "id": "awd-win-10-ghi012",
+        "value": 10,
+        "label": "Award Winning",
+        "currentValue": 0
+    }
+]
